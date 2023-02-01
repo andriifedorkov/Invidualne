@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1024.0" stylesheets="@../../../../../target/classes/com/example/myproject/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myproject.Cemail">
+   <children>
+      <TextField layoutX="295.0" layoutY="266.0" prefHeight="32.0" prefWidth="162.0" promptText="First name" />
+      <Label layoutX="295.0" layoutY="212.0" prefHeight="25.0" prefWidth="401.0" text="Sign up for a free account" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="regbtn" layoutX="296.0" layoutY="489.0" mnemonicParsing="false" onAction="#regiBtn" prefHeight="35.0" prefWidth="94.0" text="Register" />
+      <TextField layoutX="296.0" layoutY="313.0" prefHeight="32.0" prefWidth="385.0" promptText="Email adress" />
+      <TextField layoutX="296.0" layoutY="368.0" prefHeight="32.0" prefWidth="385.0" promptText="Nickname" />
+      <TextField layoutX="296.0" layoutY="429.0" prefHeight="32.0" prefWidth="385.0" promptText="Create password" />
+      <TextField layoutX="519.0" layoutY="266.0" prefHeight="32.0" prefWidth="162.0" promptText="Last name" />
+      <Button fx:id="bbtn" layoutX="586.0" layoutY="489.0" mnemonicParsing="false" onAction="#bckBtn" prefHeight="35.0" prefWidth="94.0" text="Back" />
+   </children>
+</AnchorPane>
